@@ -5,12 +5,13 @@ import App from "./App";
 
 export default function App2() {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route exact path="/" element={<App />} />
-                <Route path="/calc" element={<Calculator />} />
-            </Routes>
-        </BrowserRouter>
+        // <BrowserRouter>
+        //     <Routes>
+        //         <Route exact path="/" element={<App />} />
+        //         <Route path="/calc" element={<Calculator />} />
+        //     </Routes>
+        // </BrowserRouter>
+        <Calculator />
     )
 
 }
