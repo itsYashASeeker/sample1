@@ -1,0 +1,34 @@
+.divf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.fdirc {
+  flex-direction: column;
+}
+
+.calculator-div {
+  background: wheat;
+  border: 0.2rem solid black;
+  width: 30rem;
+}
+
+.row {
+  /* justify-content: space-between; */
+  width: 100%;
+  gap: 2rem;
+}
+
+
+.r1 {
+  background: yellow;
+  color: black;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.inputS {
+  text-align: right;
+}
